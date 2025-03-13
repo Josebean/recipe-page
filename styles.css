@@ -10,12 +10,26 @@
 
 body {
     background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .container {
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     padding: 40px 40px  40px 40px;
+    margin: 100px 0 100px 0;
+    max-width: 50%;
+    align-self: center;
+
+    
+}
+
+.card {
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px 10px 10px 20px;
+    border-radius: 15px;
 }
 
 .attribution { 
@@ -26,15 +40,20 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
-.test {
-    background-color: aqua;
+.nutritional-heading {
+   
     width: 50%;
     padding-left: 30px;
 }
 
+.nutritional-value {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    
+}
+
 .row {
     display: flex;
-    background-color: bisque;
 }
 
 hr {
@@ -49,26 +68,39 @@ hr {
 
 img {
     border-radius: 20px;
+    max-width:100%;
+    max-height:100%;
+
 }
 
 h1 {
     font-family: "Young Serif";
+    color: hsl(24, 5%, 18%);
 }
 
 h2 {
     font-family: "Young Serif";
+    color: hsl(14, 45%, 36%);
 }
 
 h4 {
     font-family: "Outfit";
+    color: hsl(332, 51%, 32%);
 }
 
 p {
     font-family: "Outfit";
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
 }
 
 
 
 li {
     font-family: "Outfit";
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-style: 400;
+    margin: 10px;
 }
